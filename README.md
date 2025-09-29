@@ -1,3 +1,7 @@
+<img width="1345" height="1159" alt="image" src="https://github.com/user-attachments/assets/9256de68-7ba3-4d56-a755-e198e6c42829" />
+<img width="667" height="1105" alt="image" src="https://github.com/user-attachments/assets/e4a3b886-901a-4ea1-82e9-1ebdc5465aa2" />
+
+
 # Image Generation Studio
 
 A full-stack TypeScript application that generates professional LinkedIn B2B ad images using AI. Built for the Kalos take-home assignment.
