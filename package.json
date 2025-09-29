@@ -1,0 +1,24 @@
+{
+  "name": "image-generation-studio",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "./start.sh",
+    "dev:backend": "cd apps/server && npm run dev",
+    "dev:frontend": "cd apps/web && npm run dev",
+    "build": "echo 'Build scripts not configured yet'",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "lint:check": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "typescript": "^5.2.0"
+  },
+  "packageManager": "pnpm@8.0.0"
+}
